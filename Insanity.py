@@ -5,6 +5,7 @@ from alpha import *
 final_story = []
 temp_story = []
 get = input("Please input your story here: ")
+getfor = get
 get = get.replace(" " ,"*") #for space " "
 content = list(get)
 cell = 0
@@ -113,11 +114,6 @@ for letter in content:
         cell = cell+1
         temp_story.append(Z)
         final_story.append(((cell)*">"+Z))
-    elif letter == "*":
-        cell = cell+1
-        temp_story.append(SPACE)
-        final_story.append(((cell)*">"+SPACE))
-
 
     elif letter == "*":
         cell = cell+1
@@ -261,3 +257,13 @@ for letter in content:
 story = ' '.join(str(e) for e in final_story)
 print("This is your story in BrainFuck "+"\n"+story)
 
+
+
+yes_list = ["yes","Y","y"]
+YorN = input("Do you want to write this into to a text file?: ")
+if YorN in yes_list:
+    with open("{}.txt".format(getfor[0:10]), "w") as text_file:
+        story = story.replace(" ","\n")
+        text_file.write(story)
+else:
+    pass
