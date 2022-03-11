@@ -114,7 +114,10 @@ for letter in content:
         cell = cell+1
         temp_story.append(Z)
         final_story.append(((cell)*">"+Z))
+<<<<<<< HEAD
 
+=======
+>>>>>>> a8cce2f78fefa84191dfa1ee763a2328727e76a1
     elif letter == "*":
         cell = cell+1
         temp_story.append(SPACE)
