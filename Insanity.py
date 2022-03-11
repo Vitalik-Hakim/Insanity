@@ -117,12 +117,6 @@ for letter in content:
         cell = cell+1
         temp_story.append(SPACE)
         final_story.append(((cell)*">"+SPACE))
-
-
-    elif letter == "*":
-        cell = cell+1
-        temp_story.append(SPACE)
-        final_story.append(((cell)*">"+SPACE))
     elif letter == "a":
         cell = cell+1
         temp_story.append(a)
