@@ -1,6 +1,6 @@
 ### ALL CHARACTERS ARE OUTPUT WITHIN ONE CELL ###
 ## Cell is 'cleaned' after outputting character##
-#   Next char is stored in the now empty cell   #
+#       Allows for limitless story-telling      #
 
 from beta import *
 from alphaArrGen import *
