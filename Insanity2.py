@@ -18,7 +18,7 @@ for letter in content:
 
 story = ' '.join(str(e) for e in final_story)
 print("This is your story in BrainFuck "+"\n"+story)
-yes_list = ["yes","Y","y"]
+yes_list = ["yes","Y","y","Yes","Si","Oui"]
 YorN = input("Do you want to write this into to a text file?: ")
 if YorN in yes_list:
     with open("{}.txt".format(getfor[0:10]), "w") as text_file:
