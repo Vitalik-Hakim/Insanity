@@ -10,7 +10,7 @@ content = list(get)
 cell = 0
 
 for letter in content:
-	for key, val in alphDict:
+	for key, val in alphDict.items():
 		if letter == key:
 			cell += 1
 			final_story.append((cell*">"+val))
