@@ -1,3 +1,3 @@
 # Insanity
 Insanity
-Write a nice story to someone in Brain with this tool
+Write a nice story to someone in BrainF**k with this tool
